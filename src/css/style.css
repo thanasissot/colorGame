@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+  color: white; }
+
+#title {
+  color: lightblue;
+  transition: color 0.7s; }
+
+.agent {
+  border-radius: 5%;
+  height: 180px;
+  margin: 3%;
+  transition: background-color 0.7s; }
+
+#header {
+  height: 200px; }

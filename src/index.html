@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Color Game</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-12 m-3" id='header'>
+      <p class="p-3">
+        <span class="display-4">This Is The Great</span>
+        <br>
+        <span class="display-3" id='title'>RGB (0,0,0)</span>
+        <br>
+        <span class="display-4">Guessing Game</span>
+      </p>
+    </div>
+    <nav class="col-12 navbar navbar-expand-sm navbar-light bg-light mt-5">
+        <div class="container">
+          <ul class="navbar-nav justify-content-center m-auto">
+            <li class="nav-item px-5">
+                <a class="nav-link"href="#" id='newgame'>New Game</a>
+            </li>
+            <li class="nav-item px-5">
+                <a class="nav-link" href="#" id='easymode'>Easy Mode</a>
+            </li>
+            <li class="nav-item px-5">
+                <a class="nav-link" href="#" id="hardmode">Hard Mode</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="col-10 row justify-content-center">
+      <div class="col-6 row justify-content-center">
+        <div id='text' class="col-12 text-center mt-2">Pick the right box</div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </div>
+</main>
+  <script type="text/javascript" src="js/color.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
