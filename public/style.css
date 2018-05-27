@@ -1,0 +1,48 @@
+body {
+  backface-visibility: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+ }
+
+#first {
+  background: #ccc;
+  width: 100%;
+}
+
+#title {
+  text-transform: uppercase;
+  transition: color 0.7s;
+}
+
+.agent {
+  border-radius: 5%;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  transition: background-color 0.7s;
+ }
+
+#squares {
+  max-width: 655px;
+}
+
+#nav a {
+  font-weight: 700;
+  padding: 5px;
+  margin-left: 10px;
+  border: #ccc solid 2px;
+  border-bottom: none;
+  padding-bottom: 4px;
+}
+
+#nav a:hover {
+  background: #ddd;
+}
+
+#text {
+  display: inline-block;
+  height: 17px;
+}
